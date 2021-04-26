@@ -8,6 +8,7 @@ My Svelte playground
 git clone git@github.com:nukopy/svelte-playground.git
 cd ./svelte-playground
 npm install
+node scripts/setupTypeScript.js
 npm run dev
 ```
 
