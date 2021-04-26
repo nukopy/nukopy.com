@@ -1,6 +1,8 @@
 # Svelte Playground
 
-My Svelte playground
+This repository is my Svelte playground!
+
+- URL: [https://svelte-playground-nukopy.vercel.app/](https://svelte-playground-nukopy.vercel.app/)
 
 ## Start Development
 
