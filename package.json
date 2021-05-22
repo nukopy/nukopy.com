@@ -19,10 +19,10 @@
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
-    "===== pre-commit hook =====": "",
+    "===== husky pre-commit hook =====": "",
     "prepare": "husky install",
-    "commit-msg": "commitlint --config ./commitlint.config.js --edit ''",
-    "lint-staged": "lint-staged --config ./.lintstagedrc.js"
+    "lint-staged": "lint-staged --config ./.lintstagedrc.js",
+    "commit-msg": "commitlint --config ./commitlint.config.js --edit ''"
   },
   "dependencies": {
     "compression": "^1.7.1",
