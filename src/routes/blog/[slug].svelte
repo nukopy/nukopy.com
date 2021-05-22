@@ -3,17 +3,20 @@
 		return this.fetch(`blog/${params.slug}.json`)
 		    .then(res => res.json())
 		    .then(res => {
-				// console.log(res);
+				// debug: console.log(res);
 				return { post: res }
 			});
 	}
 </script>
 
 <script lang="ts">
+	import marked from 'marked';
 	export let post: {
 		slug: string,
 		title: string,
-		html: any
+		tags: string[],
+		markdown: string,
+		thumbnail: { url: string },
 	};
 </script>
 
@@ -60,5 +63,5 @@
 <h1>{post.title}</h1>
 
 <div class="content">
-	{@html post.html}
+	{@html marked(post.markdown)}
 </div>
