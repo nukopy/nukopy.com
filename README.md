@@ -10,7 +10,7 @@ This repository is my personal web site written in TypeScript / Svelte / Sapper 
 
 ```sh
 npm run dev
-#
+# access http://localhost:3000
 ```
 
 - Preview in local
