@@ -3,7 +3,6 @@
   import Footer from '../components/Footer.svelte';
 
   export let segment: string;
-  export let hoge: string;
 </script>
 
 <Nav {segment} />
