@@ -21,12 +21,8 @@
     "start": "node __sapper__/build",
     "===== pre-commit hook =====": "",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,json,css,md,yml,ts,svelte}": [
-      "npm run format"
-    ]
+    "commit-msg": "commitlint --config ./commitlint.config.js --edit ''",
+    "lint-staged": "lint-staged --config ./.lintstagedrc.js"
   },
   "dependencies": {
     "compression": "^1.7.1",
