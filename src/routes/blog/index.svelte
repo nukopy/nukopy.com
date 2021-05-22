@@ -3,7 +3,7 @@
 		return this.fetch(`blog.json`)
 		    .then(res => res.json())
 			.then(res => {
-				// console.log(res);
+				// debug: console.log(res);
 				return res;
 			});
 	}
