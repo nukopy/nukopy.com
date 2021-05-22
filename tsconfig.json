@@ -1,8 +1,18 @@
 {
-		"extends": "@tsconfig/svelte/tsconfig.json",
-		"compilerOptions": {
-			"lib": ["DOM", "ES2017", "WebWorker"]
-		},
-		"include": ["src/**/*", "src/node_modules/**/*"],
-		"exclude": ["node_modules/*", "__sapper__/*", "static/*"]
-	}
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": ["DOM", "ES2017", "WebWorker"],
+    "strictNullChecks": true,
+    "declaration": true,
+    "declarationMap": true,
+    "target": "ES2019",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "importsNotUsedAsValues": "error",
+    // "types": ["jest", "svelte"],
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "static/*"]
+}
