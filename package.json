@@ -2,6 +2,7 @@
   "name": "nukopy.work",
   "description": "nukopy.work",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "===== development =====": "",
     "dev": "sapper dev",
