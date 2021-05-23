@@ -23,7 +23,7 @@
     "startup-husky": "husky install",
     "hook:pre-commit": "lint-staged --config ./.lintstagedrc.js",
     "hook:commit-msg": "commitlint --config ./commitlint.config.js --edit ''",
-    "add-hook:lint-staged": "husky add .husky/pre-commit \"npm run hook:pre-commit\"",
+    "add-hook:pre-commit": "husky add .husky/pre-commit \"npm run hook:pre-commit\"",
     "add-hook:commit-msg": "husky add .husky/commit-msg \"npm run hook:commit-msg\""
   },
   "dependencies": {
