@@ -1,36 +1,96 @@
+html {
+  font-size: 18px;
+}
+
 body {
-	margin: 0;
-	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-	color: #333;
+  margin: 0;
+  /* font */
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: whitesmoke;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 0.5em 0;
-	font-weight: 400;
-	line-height: 1.2;
+/* for fixed-footer*/
+#container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+main {
+  padding-top: 1em;
+  padding-left: 2em;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 1em;
+}
+
+/* ------------------------------ */
+/* headings                       */
+/* ------------------------------ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* margin of headings */
 h1 {
-	font-size: 2em;
+  margin-bottom: 0.25em;
 }
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0.5em;
+  margin-bottom: 0.1em;
+}
+
+/* font-size of headings */
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+/* ------------------------------ */
+/* others                         */
+/* ------------------------------ */
 
 a {
-	color: inherit;
+  color: inherit;
 }
 
 code {
-	font-family: menlo, inconsolata, monospace;
-	font-size: calc(1em - 2px);
-	color: #555;
-	background-color: #f0f0f0;
-	padding: 0.2em 0.4em;
-	border-radius: 2px;
+  font-family: menlo, inconsolata, monospace;
+  font-size: calc(1em - 2px);
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 2px;
 }
 
-@media (min-width: 400px) {
-	body {
-		font-size: 16px;
-	}
-}
+/* -------------------------------- */
+/* layout for different screen size */
+/* -------------------------------- */
+
+/* @media (min-width: 400px) {
+  body {
+    font-size: 1rem;
+  }
+} */

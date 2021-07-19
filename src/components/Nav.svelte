@@ -1,5 +1,8 @@
 <script lang="ts">
+  import { capitalizeFirstLetter } from '../utils';
+
   export let segment: string;
+  const contents = ['about', 'works', 'study', 'blog', 'scrap', '', ''];
 </script>
 
 <nav>
@@ -9,28 +12,17 @@
         >Home</a
       ></li
     >
-    <li
-      ><a aria-current={segment === 'about' ? 'page' : undefined} href="about"
-        >About</a
-      ></li
-    >
+    {#each contents as content}
+      <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
+    the blog data when we hover over the link or tap it on a touchscreen -->
 
-    <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-    <li
-      ><a
-        rel="prefetch"
-        aria-current={segment === 'blog' ? 'page' : undefined}
-        href="blog">Blog</a
-      ></li
-    >
-    <li
-      ><a
-        rel="prefetch"
-        aria-current={segment === 'scrap' ? 'page' : undefined}
-        href="scrap">Scrap</a
-      ></li
-    >
+      <li
+        ><a
+          aria-current={segment === content ? 'page' : undefined}
+          href={content}>{capitalizeFirstLetter(content)}</a
+        ></li
+      >
+    {/each}
   </ul>
 </nav>
 
@@ -49,12 +41,12 @@
   /* clearfix */
   ul::after {
     content: '';
-    display: block;
+    display: flex;
     clear: both;
   }
 
   li {
-    display: block;
+    display: inline-flex;
     float: left;
   }
 
@@ -68,7 +60,7 @@
     content: '';
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(255, 62, 0);
+    background-color: rgb(49, 91, 180);
     display: block;
     bottom: -1px;
   }
@@ -76,6 +68,5 @@
   a {
     text-decoration: none;
     padding: 1em 0.5em;
-    display: block;
   }
 </style>
