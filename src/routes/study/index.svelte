@@ -1,3 +1,7 @@
+<script lang="ts" context="module">
+  // console.log('hoge');
+</script>
+
 <svelte:head>
   <title>Study</title>
 </svelte:head>
