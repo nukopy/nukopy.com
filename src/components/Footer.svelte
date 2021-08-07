@@ -1,10 +1,6 @@
 <script>
-  import Icon from 'svelte-awesome';
   import { github, linkedin } from 'svelte-awesome/icons';
-
   import SnsIcon from './SnsIcon.svelte';
-
-  const ICON_SCALE = 1.5;
 </script>
 
 <footer>
@@ -20,9 +16,9 @@
   &copy; 2021 nukopy. Made with Svelte / Sapper.
 </footer>
 
-<style lang="scss">
+<style>
   footer {
-    // background-color: rgb(177, 173, 173);
+    /* background-color: rgb(177, 173, 173); */
     font-size: 0.8em;
     text-align: center;
   }
