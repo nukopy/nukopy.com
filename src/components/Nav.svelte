@@ -2,24 +2,27 @@
   import { capitalizeFirstLetter } from '../utils';
 
   export let segment: string;
-  const contents = ['about', 'works', 'study', 'blog', 'scrap', '', ''];
+  const contents = [
+    'home',
+    'about',
+    'works',
+    'blog',
+    'study',
+    'reading',
+    'scrap',
+  ];
 </script>
 
 <nav>
   <ul>
-    <li
-      ><a aria-current={segment === undefined ? 'page' : undefined} href="."
-        >Home</a
-      ></li
-    >
     {#each contents as content}
       <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
     the blog data when we hover over the link or tap it on a touchscreen -->
-
       <li
         ><a
           aria-current={segment === content ? 'page' : undefined}
-          href={content}>{capitalizeFirstLetter(content)}</a
+          href={content === 'home' ? '.' : content}
+          >{capitalizeFirstLetter(content)}</a
         ></li
       >
     {/each}
