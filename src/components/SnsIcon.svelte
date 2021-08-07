@@ -1,5 +1,5 @@
 <script>
-  import Icon from 'svelte-awesome';
+  import Icon from 'svelte-awesome/components/Icon.svelte';
 
   const ICON_SCALE = 1.5;
 
