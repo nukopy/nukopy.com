@@ -1,6 +1,6 @@
 # nukopy.dev
 
-This repository is my personal web site written in TypeScript / Svelte / Sapper / microCMS.
+This repository is my personal web site made with Svelte / Sapper / microCMS.
 
 - URL: [nukopy.work](https://www.nukopy.work)
 
