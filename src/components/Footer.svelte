@@ -19,7 +19,7 @@
 <style>
   footer {
     /* background-color: rgb(177, 173, 173); */
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: center;
   }
 </style>
