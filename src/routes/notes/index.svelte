@@ -16,6 +16,8 @@
     <div class="align">
       <a
         href="https://nukopy.notion.site/Wiki-for-Study-720124b9661c40b98805429142401f4a"
+        target="_black"
+        rel="noopener noreferrer"
       >
         Wiki for Study on <NotionIcon />
       </a>
@@ -23,8 +25,12 @@
   </li>
   <li>
     <div class="align">
-      <a href="https://scrapbox.io/nukopy-scrap/"
-        >Scraps on <ScrapboxIcon />
+      <a
+        href="https://scrapbox.io/nukopy-scrap/"
+        target="_black"
+        rel="noopener noreferrer"
+      >
+        Scraps on <ScrapboxIcon />
       </a>
     </div>
   </li>
