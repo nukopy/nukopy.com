@@ -3,7 +3,7 @@
 
   export let segment: string;
   const contents = [
-    'home',
+    'top',
     'about',
     'works',
     'blog',
@@ -19,21 +19,27 @@
     {#each contents as content}
       <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
     the blog data when we hover over the link or tap it on a touchscreen -->
-      <li
-        ><a
+      <li>
+        <a
           aria-current={segment === content ? 'page' : undefined}
-          href={content === 'home' ? '.' : content}
-          >{capitalizeFirstLetter(content)}</a
-        ></li
-      >
+          href={content}
+        >
+          {capitalizeFirstLetter(content)}
+        </a>
+      </li>
     {/each}
   </ul>
 </nav>
 
-<style>
+<style lang="scss">
+  @import '../styles/theme.scss';
+
+  $nav-border-color: rgba(255, 62, 0, 0.1);
+  $nav-font-weight: 500;
+
   nav {
-    border-bottom: 1px solid rgba(255, 62, 0, 0.1);
-    font-weight: 300;
+    font-weight: $nav-font-weight;
+    border-bottom: 1px solid $nav-border-color;
     padding: 0 1em;
   }
 
@@ -64,7 +70,7 @@
     content: '';
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(49, 91, 180);
+    background-color: $primary-color;
     display: block;
     bottom: -1px;
   }

@@ -14,3 +14,9 @@
 
   <Footer />
 </div>
+
+<style lang="scss" global>
+  @import '../styles/global.scss';
+  @import '../styles/variables.scss';
+  @import '../styles/theme.scss';
+</style>
