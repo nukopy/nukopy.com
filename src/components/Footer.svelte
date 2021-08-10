@@ -1,6 +1,6 @@
 <script>
   import { github, linkedin, medium } from 'svelte-awesome/icons';
-  import SnsIcon from './SnsIcon.svelte';
+  import Icon from './Icon.svelte';
 </script>
 
 <footer>
@@ -8,9 +8,9 @@
   <!-- svelte-awesome: https://github.com/RobBrazier/svelte-awesome -->
   <!-- todo: 定職に就いて落ち着いたら、LinkedIn のアカウントへのリンクを貼る -->
   <p>
-    <SnsIcon link="https://www.linkedin.com/feed/" data={linkedin} />
-    <SnsIcon link="https://github.com/nukopy" data={github} />
-    <SnsIcon link="https://medium.com/@nukopy" data={medium} />
+    <Icon link="https://www.linkedin.com/feed/" data={linkedin} />
+    <Icon link="https://github.com/nukopy" data={github} />
+    <Icon link="https://medium.com/@nukopy" data={medium} />
   </p>
 
   <!-- copyright -->

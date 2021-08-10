@@ -7,12 +7,12 @@
   export let data;
 </script>
 
-<a href={link} target="_black" rel="noopener noreferrer" class="sns-icon">
+<a href={link} target="_black" rel="noopener noreferrer" class="icon">
   <Icon {data} scale={ICON_SCALE} />
 </a>
 
 <style>
-  .sns-icon {
+  .icon {
     padding: 0.2em;
     color: inherit;
   }
