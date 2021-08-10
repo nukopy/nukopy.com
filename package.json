@@ -34,7 +34,7 @@
     "marked": "^2.0.5",
     "polka": "next",
     "sirv": "^1.0.0",
-    "svelte-awesome": "^2.3.2",
+    "svelte-awesome": "git+https://github.com/nukopy/svelte-awesome.git",
     "svelte-i18n": "^3.3.9"
   },
   "devDependencies": {
