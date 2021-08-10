@@ -65,7 +65,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
-    "node-sass": "^6.0.0",
+    "node-sass": "^6.0.1",
     "postcss": "^8.3.0",
     "prettier": "^2.3.0",
     "prettier-plugin-svelte": "^2.3.0",
