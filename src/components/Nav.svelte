@@ -7,9 +7,10 @@
     'about',
     'works',
     'blog',
-    'study',
-    'reading',
-    'scrap',
+    // 'study',
+    // 'reading',
+    // 'scrap',
+    'notes',
   ];
 </script>
 
