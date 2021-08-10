@@ -10,9 +10,12 @@
   #welcome {
     margin: 0 1rem;
     // 上下中央揃え
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
+    // vertical-align: center;
   }
 
   h1 {
