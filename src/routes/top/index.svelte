@@ -20,8 +20,26 @@
     text-align: center;
     margin: 0 auto;
     // font
-    font-size: 3em;
+    font-size: 4em;
     text-transform: uppercase;
     font-weight: 700;
+  }
+
+  @media screen and (max-width: 1000px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    h1 {
+      font-size: 3rem;
+    }
   }
 </style>
