@@ -34,6 +34,7 @@
 <style>
   ul {
     list-style-type: circle;
+    padding-top: 0.5rem;
     padding-left: 2rem;
   }
 
