@@ -19,21 +19,4 @@
   @import '../styles/global.scss';
   @import '../styles/variables.scss';
   @import '../styles/theme.scss';
-
-  /* for fixed-footer*/
-  #container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-
-  main {
-    padding: 1em 2em;
-    box-sizing: border-box;
-  }
-
-  footer {
-    margin-top: auto;
-    margin-bottom: 1em;
-  }
 </style>

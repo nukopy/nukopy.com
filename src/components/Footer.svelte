@@ -21,6 +21,11 @@
   footer {
     /* background-color: rgb(177, 173, 173); */
     font-size: 1em;
+
+    /* 左右中央寄せ */
     text-align: center;
+    /* 上下中央寄せ */
+    margin-top: auto;
+    margin-bottom: 1em;
   }
 </style>
