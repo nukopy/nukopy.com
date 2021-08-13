@@ -39,6 +39,5 @@
     flex-direction: column;
     min-height: 100vh;
     min-height: calc(var(--vh, 1vh) * 100);
-    // min-height: calc(var(--vh, 1vh) * 50);
   }
 </style>
