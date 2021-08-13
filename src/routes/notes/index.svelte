@@ -19,7 +19,7 @@
         target="_black"
         rel="noopener noreferrer"
       >
-        Wiki for Study on <NotionIcon />
+        Wiki on <NotionIcon />
       </a>
     </div>
   </li>
