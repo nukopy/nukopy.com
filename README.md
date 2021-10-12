@@ -1,8 +1,8 @@
-# nukopy.dev
+# nukopy.com
 
 This repository is my personal web site made with Svelte / Sapper / microCMS.
 
-- URL: [nukopy.work](https://www.nukopy.work)
+- URL: [nukopy.com](https://www.nukopy.com)
 
 ## Requirements
 
