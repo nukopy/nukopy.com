@@ -1,5 +1,0 @@
-* linguist-vendored
-
-# config repository languages
-*.ts linguist-vendored=false
-*.svelte linguist-vendored=false
