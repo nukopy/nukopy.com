@@ -6,7 +6,19 @@ import * as path from "path";
 export default defineConfig(({ command, mode, ssrBuild }) => {
   if (command === "serve") {
     return {
-      // base: "/src/",
+      base: "/",
+      resolve: {
+        alias: {
+          "@/": `${__dirname}/src/`,
+        },
+      },
+      mode: mode,
+      plugins: [react()],
+    };
+  } else if (command === "build") {
+    // FIXME: あとで変える
+    return {
+      base: "/",
       resolve: {
         alias: {
           "@/": `${__dirname}/src/`,
