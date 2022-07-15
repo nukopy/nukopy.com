@@ -1,10 +1,10 @@
 module.exports = {
   printWidth: 80,
-  singleQuote: true,
+  singleQuote: false,
   tabWidth: 2,
   useTabs: false,
   bracketSpacing: true,
   semi: true,
-  trailingComma: 'all',
-  htmlWhitespaceSensitivity: 'strict',
+  trailingComma: "all",
+  htmlWhitespaceSensitivity: "strict",
 };
