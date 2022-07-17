@@ -1,11 +1,13 @@
+import { TextContentWrapper } from "@/components/TextContentWrapper";
+
 export const AboutPage = () => {
   return (
-    <>
-      <h1>Works</h1>
+    <TextContentWrapper>
+      <h1>About</h1>
 
       <p>
         <b>I'm a software Developer.</b>
       </p>
-    </>
+    </TextContentWrapper>
   );
 };

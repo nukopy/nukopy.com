@@ -1,6 +1,8 @@
+import { TextContentWrapper } from "@/components/TextContentWrapper";
+
 export const WorksPage = () => {
   return (
-    <>
+    <TextContentWrapper>
       <h1>Works</h1>
 
       <p>
@@ -46,6 +48,6 @@ export const WorksPage = () => {
           <li>Input Unit</li>
         </ul>
       </ul>
-    </>
+    </TextContentWrapper>
   );
 };
