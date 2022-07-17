@@ -6,7 +6,7 @@ export const AboutPage = () => {
       <h1>About</h1>
 
       <p>
-        <b>I'm a software Developer.</b>
+        <b>I'm a software developer.</b>
       </p>
     </TextContentWrapper>
   );
